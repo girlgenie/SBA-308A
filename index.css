@@ -5,3 +5,19 @@
   padding: 50px;
   margin: 20px;
 } */
+body { 
+  text-align: center;
+}
+
+
+#search-button {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+#searchbox {
+  padding: 2px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
