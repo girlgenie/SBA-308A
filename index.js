@@ -7,11 +7,14 @@ const options = {
     "X-RapidAPI-Host": "youtube-search-results.p.rapidapi.com",
   },
 };
-
-try {
-  const response = await fetch(url, options);
-  const result = await response.text();
-  console.log(result);
-} catch (error) {
-  console.error(error);
+async function fetchData (){
+  try {
+    const response = await fetch(url, options);
+    const result = await response.text();
+    console.log(result);
+  } catch (error) {
+    console.error(error);
 }
+}
+
+fetchData (); 
